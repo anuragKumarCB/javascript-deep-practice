@@ -1,145 +1,53 @@
-# JavaScript-Backend-Practice ⚙️ (Code-First)
+# C++ & ROS Robotics Practice README
 
-Focused JavaScript practice for backend development using Node.js and NestJS, with an emphasis on performance, architecture, and deep understanding of the language.
+```markdown
+# CPP-ROS-Robotics-Practice 🤖 (Code-First)
 
-This repo contains exercises, experiments, and backend-focused builds — organized by concepts, not frameworks or trends.
+Focused modern C++ and ROS/ROS 2 practice for robotics software engineering, with an emphasis on deterministic performance, memory management, kinematics, and real-time control.
+
+This repo contains robotics software stacks, custom nodes, algorithms, and simulation packages — organized by systems engineering concepts.
 
 ---
 
 ## 🎯 Direction
 
-This is not frontend-focused JavaScript.
+This is performance-critical, low-level engineering for physical and simulated systems.
 
 The long-term focus includes:
 
-* Backend development with Node.js
-* Scalable architecture using NestJS
-* Performance optimization and event loop understanding
-* Writing efficient, production-level JavaScript
+* Modern C++ standards (C++17/C++20), RAII, and smart pointers
+* ROS & ROS 2 architecture (Nodes, Topics, Services, Actions, Executors)
+* Real-time middleware, DDS communication, and lifecycle management
+* Kinematics, trajectory generation, and state estimation algorithms
+* Hardware-software interfacing with minimal latency and zero memory leaks
 
-Fundamentals are treated as the base for building reliable backend systems.
+Low-level systems knowledge is treated as the foundation for safe, deterministic robotics.
 
 ---
 
 ## 🚀 Goals
 
-* 🏆 Practice consistently (not forced daily spam)
-* 🧠 Strengthen **core JavaScript fundamentals**
-* ⚡ Understand **event loop, async behavior, and performance**
-* 🏗️ Build structured backend systems with NestJS
-* 📈 Improve code quality, scalability, and maintainability
+* 🏆 Master modern C++ idioms for performance-constrained environments
+* 🧠 Build production-quality **ROS 2 packages and modular node networks**
+* ⚡ Eliminate memory leaks, optimize cache locality, and minimize execution jitter
+* 🏗️ Implement core kinematics, state estimation filters, and control loops
+* 📈 Bridge simulation (Gazebo) to real-time embedded hardware targets
 
 ---
 
 ## 📂 Structure
 
-Organized by **concepts**, not frameworks:
+Organized by **systems concepts and robotics layers**:
 
-```id="j2k9dl"
-01_basics_revisited/
-02_data_types/
-03_closures_scope/
-04_async_event_loop/
-05_error_handling/
-06_node_core/
-07_express_basics/
-08_nestjs/
-09_architecture/
-10_performance/
+```text
+01_modern_cpp_foundations/
+02_memory_management_and_raii/
+03_concurrency_and_multithreading/
+04_ros2_node_fundamentals/
+05_custom_interfaces_and_lifecycle/
+06_tf2_transforms_and_kinematics/
+07_sensor_data_processing/
+08_control_algorithms_pid_lqr/
+09_state_estimation_kalman_filters/
+10_gazebo_simulation_and_urdf/
 ...
-```
-
-Each folder contains focused practice and backend-oriented examples.
-
----
-
-## 🔨 How to Run
-
-### Option 1 — Node (simple scripts)
-
-```bash id="n1x8qp"
-node file_name.js
-```
-
----
-
-### Option 2 — Using npm
-
-```bash id="z8q1rm"
-npm install
-node file_name.js
-```
-
----
-
-### Option 3 — NestJS (for structured backend)
-
-```bash id="u7d3kp"
-npm install -g @nestjs/cli
-nest new project_name
-cd project_name
-npm run start
-```
-
----
-
-## ⚙️ Requirements
-
-* Node.js (latest LTS)
-* npm or pnpm
-
-Optional:
-
-* NestJS CLI
-
----
-
-## 📌 Notes
-
-* This is a **code-first repository** — minimal explanations
-* Focus is on **understanding internals and building systems**
-* Experiments may be rough but reflect real learning
-* Refactoring happens as patterns become clear
-
----
-
-## ❌ What You Won’t Find Here
-
-* Frontend/UI-focused code
-* Copy-paste tutorials
-* Framework-only learning without fundamentals
-
----
-
-## 🧠 Why JavaScript (Backend)?
-
-Because understanding JS deeply means understanding:
-
-* Event-driven systems
-* Async execution and concurrency
-* Real-world backend performance constraints
-
----
-
-## 🔥 Philosophy
-
-> Break → Understand → Optimize → Scale → Repeat
-
----
-
-## 📈 Progress
-
-Long-term consistency over short bursts.
-
----
-
-## 🤝 Contributions
-
-Not open for contributions.
-This is a personal practice repository.
-
----
-
-## 📜 License
-
-MIT
