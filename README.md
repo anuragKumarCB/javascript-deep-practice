@@ -1,5 +1,3 @@
-# C++ & ROS Robotics Practice README
-
 # CPP-ROS-Robotics-Practice 🤖 (Code-First)
 
 Focused modern C++ and ROS/ROS 2 practice for robotics software engineering, with an emphasis on deterministic performance, memory management, kinematics, and real-time control.
